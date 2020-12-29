@@ -1,10 +1,12 @@
 import _ from 'lodash';
-import './style.css'
+import './style.css';
 // import style from './style.css'
 
 // consoleで見るとtoString()を持っていることが分かる。
 // console.log(style);
 // console.log(style.toString());
+
+import logo from './sorahiro-thumbnail.png';
 
 // import { NAME, Nijou } from './utilities';
 // import * as utilities from './utilities';
@@ -29,3 +31,7 @@ function component() {
 
 document.body.appendChild(component());
 document.body.classList.add('haikei');
+
+const image = new Image();
+image.src = logo;
+document.body.appendChild(image);
