@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import './style.css';
+import './style.scss';
 // import style from './style.css'
 
 // consoleで見るとtoString()を持っていることが分かる。
